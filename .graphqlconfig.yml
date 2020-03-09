@@ -1,0 +1,8 @@
+
+projects:
+  app:
+    schemaPath: https://api.spacex.land/graphql/
+    includes: ["**/*.gql", "**/*.graphql"]
+    extensions:
+      endpoints:
+        default: https://api.spacex.land/graphql/

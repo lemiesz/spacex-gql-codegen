@@ -1,0 +1,13 @@
+query launches {
+  launchesPast(limit: 20) {
+    details
+    mission_name
+    links {
+      article_link
+    }
+
+    ships {
+      image
+    }
+  }
+}
